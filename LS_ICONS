@@ -1,0 +1,509 @@
+# This file probably contain some characters, which are non Unicode standard.
+# Maybe we can show them by installing Nerd Fonts(https://www.nerdfonts.com/).
+
+###############################################################################
+# NOTE: LS_ICONS doesn't need any ANSI compatible terminals, so it should be
+# accepted by all TERM type.
+TERM *
+###############################################################################
+FILE 
+DIR 
+LINK 
+FIFO ﳣ
+SOCK 
+DOOR ﴘ
+BLK ﰩ
+CHR 
+ORPHAN 
+###############################################################################
+# brew
+.Brewfile 
+*Brewfile 
+
+# build
+*Makefile 
+.in 
+.ac 
+.scan 
+.m4 
+.status 
+*CMakeLists.txt 
+*.cmake 
+.build 
+*BUILD 
+.ninja 
+.gradle 
+*configure 
+*PKGBUILD 
+.deb 
+.ebuild 
+.rpm 
+
+# c
+.c 
+.h 
+
+# cpp
+.cpp ﭱ
+.hpp ﭱ
+
+# clojure
+.clj 
+.cljc 
+.cljs 
+.cljx 
+
+# cmd
+.bat 
+.cmd 
+
+# config
+.conf 
+.cfg 
+*config 
+.json ﬥ
+.yml 
+.yaml 
+.toml 
+.ini 
+.xml 謹
+.dirs 
+.locale 
+
+# c sharp
+.cs 
+
+# coffeescript
+.coffee 
+
+# css
+.css 
+
+# d
+.d 
+
+# dart
+.dart 
+.drt 
+
+# dircolors
+.dircolors 
+.DIRCOLORS 
+.dir_colors 
+.DIR_COLORS 
+*dircolors 
+*DIRCOLORS 
+*dir_colors 
+*DIR_COLORS 
+.lscolors 
+.LSCOLORS 
+.ls_colors 
+.LS_COLORS 
+*lscolors 
+*LSCOLORS 
+*ls_colors 
+*LS_COLORS 
+
+# docker
+.Dockerfile 
+*Dockerfile 
+*Containerfile 
+.dockerignore 
+*.docker 
+
+# elixir
+.exs 
+
+# elm
+.elm 
+
+# erlang
+.erl 
+
+# Excel
+.xls 
+.xlsx 
+
+# f sharp
+.fs 
+.fsi 
+.fsx 
+.fsscript 
+
+# groovy
+.groovy 
+
+# git
+.git 
+.gitattributes 
+.gitconfig 
+.gitignore 
+.gitmodules 
+
+# go
+.go 
+
+# haskell
+.hs 
+.lhs 
+.cabal 
+*cabal.project 
+*.ghc 
+*.ghcup 
+*.cabal 
+*dist 
+*dist-newstyle 
+
+# history
+*history 
+.lesshst 
+.netrwhist 
+
+# html
+.html 
+.xhtml 
+.xht 
+
+# java
+.java 
+.jav 
+
+# javascript
+.js 
+.jsx 
+.javascript 
+.es 
+.mjs 
+.cjs 
+
+# julia
+.jl 
+
+# less
+.less 
+
+# lua
+.lua 
+
+# markdown
+.md 
+.markdown 
+.mdown 
+.mkd 
+.mkdn 
+.mkwn 
+
+# nix
+.nix 
+
+# nodejs
+*.node_modules 
+*.npm 
+.npmrc 
+
+# perl
+.pl 
+.pm 
+.pl6 
+.p6 
+.pm6 
+.raku 
+.rakumod 
+
+# php
+.php 
+
+# Powerpoint
+.ppt 
+.pptx 
+
+# powershell
+.ps1 
+
+# prolog
+# .pl  # Conflict to a perl's one.
+.pro 
+.swi 
+
+# python
+.py 
+.pyw 
+.pythonstartup 
+.pythonrc 
+*Pipfile 
+
+# R
+.R ﳒ
+
+# ruby
+.rb 
+.rbw 
+.gemspec 
+.rbs 
+.ebs 
+.ru 
+*Gemfile 
+*Rakefile 
+.rake 
+*.bundle 
+
+# rust
+.rs 
+*.cargo 
+*.rustup 
+
+# sass
+.scss 
+.sass 
+
+# scala
+.scala 
+
+# stylus
+.styl 
+.stylus 
+
+# swift
+.swift 
+
+# typescript
+.ts 
+.tsx 
+
+# shell
+.sh 
+.profile 
+*profile 
+.bash 
+.bashrc 
+.bash_profile 
+.bash_logout 
+.zsh 
+.zshenv 
+*zshenv 
+.zprofile 
+*zprofile 
+.zshrc 
+*zshrc 
+.zlogin 
+*zlogin 
+.zlogout 
+*zlogout 
+.csh 
+.cshrc 
+*cshrc 
+.tcsh 
+.tcshrc 
+*tcshrc 
+.ksh 
+
+# ctags
+.ctags 
+*tags 
+
+# vim
+.vim 
+*.vimrc 
+*vimrc 
+*.gvimrc 
+*gvimrc 
+*.viminfo 
+
+# vue
+.vue ﵂
+
+# Word
+.doc 
+.docx 
+
+# X11
+.xinitrc 
+*xinitrc 
+.xserverrc 
+*xserverrc 
+.Xresources 
+
+# archives or compressed
+.tar 
+.tgz 
+.arc 
+.arj 
+.taz 
+.lha 
+.lz4 
+.lzh 
+.lzma 
+.tlz 
+.txz 
+.tzo 
+.t7z 
+.zip 
+.z 
+.dz 
+.gz 
+.lrz 
+.lz 
+.lzo 
+.xz 
+.zst 
+.tzst 
+.bz2 
+.bz 
+.tbz 
+.tbz2 
+.tz 
+.deb 
+.rpm 
+.jar 
+.war 
+.ear 
+.sar 
+.rar 
+.alz 
+.ace 
+.zoo 
+.cpio 
+.7z 
+.rz 
+.cab 
+.wim 
+.swm 
+.dwm 
+.esd 
+.zstd 
+
+# image formats
+.jpg 
+.jpeg 
+.mjpg 
+.mjpeg 
+.gif 
+.bmp 
+.pbm 
+.pgm 
+.ppm 
+.tga 
+.xbm 
+.xpm 
+.tif 
+.tiff 
+.png 
+.svg 
+.svgz 
+.mng 
+.pcx 
+.mov 
+.mpg 
+.mpeg 
+.m2v 
+.mkv 
+.webm 
+.webp 
+.ogm 
+.mp4 
+.m4v 
+.mp4v 
+.vob 
+.qt 
+.nuv 
+.wmv 
+.asf 
+.rm 
+.rmvb 
+.flc 
+.avi 
+.fli 
+.flv 
+.gl 
+.dl 
+.xcf 
+.xwd 
+.yuv 
+.cgm 
+.emf 
+.ogv 
+.ogx 
+
+# audio formats
+.aac 
+.au 
+.flac 
+.m4a 
+.mid 
+.midi 
+.mka 
+.mp3 
+.mpc 
+.ogg 
+.ra 
+.wav 
+.oga 
+.opus 
+.spx 
+.xspf 
+
+# misc
+.exe 
+.txt 
+.csv 
+.tsv 
+.rst 
+.lock 
+.pdf 
+.log 
+.key 
+*.gnupg 
+*.password-store 
+.pki 
+*LICENSE 
+*COPYRIGHT 
+*COPYING 
+*README 
+*CHANGES 
+.editorconfig 
+.tigrc 
+*tigrc 
+.shellcheckrc 
+*shellcheckrc 
+.ripgreprc 
+.inputrc 
+.aliases 
+.pacnew 
+.diff 
+.patch 
+*.DS_Store 
+.goldplate ﬥ
+*.github 
+*.vscode 
+*.mozilla 
+*.terminfo 
+*.urxvt 
+.zwc 
+.zcompdump 
+*.gitignore-boilerplates 
+*Desktop 
+*Documents 
+*Downloads 
+*Music 
+*Pictures 
+*Public 
+*Templates 
+*Videos 
+.diricons 
+.DIRICONS 
+.dir_icons 
+.DIR_iconS 
+*diricons 
+*DIRICONS 
+*dir_icons 
+*DIR_ICONS 
+.lsicons 
+.LSICONS 
+.ls_icons 
+.LS_ICONS 
+*lsicons 
+*LSICONS 
+*ls_icons 
+*LS_ICONS 
+###############################################################################
+# vim: set filetype=dircolors :

@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Compile configurations
+        run: make
+
+      - name: Confirm no diff
+        run: git diff --quiet
