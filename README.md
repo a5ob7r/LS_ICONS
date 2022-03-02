@@ -1,5 +1,7 @@
 # LS_ICONS
 
+[![CI](https://github.com/a5ob7r/LS_ICONS/actions/workflows/ci.yml/badge.svg)](https://github.com/a5ob7r/LS_ICONS/actions/workflows/ci.yml)
+
 This is an experimental configuration for an environment variable `LS_ICONS`, which is for the `--icons` option of [haskellorls](https://github.com/a5ob7r/haskellorls).
 
 ## What's `LS_ICONS`
