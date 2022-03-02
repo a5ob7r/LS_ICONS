@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Compile configurations
-        run: make
+        run: make all
 
-      - name: Confirm no diff
-        run: git diff --quiet
+      - name: Confirm all compiled files are up to date
+        run: make test
