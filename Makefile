@@ -17,3 +17,7 @@ csh:
 .PHONY: test
 test:
 	git diff $(DSTS)
+
+.PHONY: lint
+lint:
+	! grep '^\.' $(SRC)

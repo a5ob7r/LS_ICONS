@@ -1,6 +1,15 @@
-# This file probably contain some characters, which are non Unicode standard.
-# Maybe we can show them by installing Nerd Fonts(https://www.nerdfonts.com/).
-
+# This file probably contain some characters, which aren't defined in the
+# Unicode standard. Maybe we can show them by installing Nerd
+# Fonts(https://www.nerdfonts.com/).
+#
+# CODING CONVERSATIONS
+# - Prefer a '*.extension' format, not a '.extension' one.
+#
+#   '.extension' is the same as '*.extension'. The latter is a little bit more
+#   expressive than the former. We can unify all extension pattern formats by
+#   this and probably improve readability. By the way, the former is considered
+#   obsolete according to 'man 5 dir_colors'.
+#
 ###############################################################################
 # NOTE: LS_ICONS doesn't need any ANSI compatible terminals, so it should be
 # accepted by all TERM type.
@@ -17,136 +26,126 @@ CHR 
 ORPHAN 
 ###############################################################################
 # brew
-.Brewfile 
 *Brewfile 
 
 # build
 *Makefile 
-.in 
-.ac 
-.scan 
-.m4 
-.status 
+*.in 
+*.ac 
+*.scan 
+*.m4 
+*.status 
 *CMakeLists.txt 
 *.cmake 
-.build 
+*.build 
 *BUILD 
-.ninja 
-.gradle 
+*.ninja 
+*.gradle 
 *configure 
 *PKGBUILD 
-.deb 
-.ebuild 
-.rpm 
+*.deb 
+*.ebuild 
+*.rpm 
 
 # c
-.c 
-.h 
+*.c 
+*.h 
 
 # cpp
-.cpp ﭱ
-.hpp ﭱ
+*.cpp ﭱ
+*.hpp ﭱ
 
 # clojure
-.clj 
-.cljc 
-.cljs 
-.cljx 
+*.clj 
+*.cljc 
+*.cljs 
+*.cljx 
 
 # cmd
-.bat 
-.cmd 
+*.bat 
+*.cmd 
 
 # config
-.conf 
-.cfg 
+*.conf 
+*.cfg 
 *config 
-.json ﬥ
-.yml 
-.yaml 
-.toml 
-.ini 
-.xml 謹
-.dirs 
-.locale 
+*.json ﬥ
+*.yml 
+*.yaml 
+*.toml 
+*.ini 
+*.xml 謹
+*.dirs 
+*.locale 
 
 # c sharp
-.cs 
+*.cs 
 
 # coffeescript
-.coffee 
+*.coffee 
 
 # css
-.css 
+*.css 
 
 # d
-.d 
+*.d 
 
 # dart
-.dart 
-.drt 
+*.dart 
+*.drt 
 
 # dircolors
-.dircolors 
-.DIRCOLORS 
-.dir_colors 
-.DIR_COLORS 
 *dircolors 
 *DIRCOLORS 
 *dir_colors 
 *DIR_COLORS 
-.lscolors 
-.LSCOLORS 
-.ls_colors 
-.LS_COLORS 
 *lscolors 
 *LSCOLORS 
 *ls_colors 
 *LS_COLORS 
 
 # docker
-.Dockerfile 
 *Dockerfile 
 *Containerfile 
-.dockerignore 
+*.dockerignore 
 *.docker 
 
 # elixir
-.exs 
+*.exs 
 
 # elm
-.elm 
+*.elm 
 
 # erlang
-.erl 
+*.erl 
 
 # Excel
-.xls 
-.xlsx 
+*.xls 
+*.xlsx 
 
 # f sharp
-.fs 
-.fsi 
-.fsx 
-.fsscript 
+*.fs 
+*.fsi 
+*.fsx 
+*.fsscript 
 
 # groovy
-.groovy 
+*.groovy 
 
 # git
-.git 
-.gitattributes 
-.gitconfig 
-.gitignore 
-.gitmodules 
+*.git 
+*.gitattributes 
+*.gitconfig 
+*.gitignore 
+*.gitmodules 
 
 # go
-.go 
+*.go 
 
 # haskell
-.hs 
-.lhs 
-.cabal 
+*.hs 
+*.lhs 
+*.cabal 
 *cabal.project 
 *.ghc 
 *.ghcup 
@@ -156,331 +155,317 @@ ORPHAN 
 
 # history
 *history 
-.lesshst 
-.netrwhist 
+*.lesshst 
+*.netrwhist 
 
 # html
-.html 
-.xhtml 
-.xht 
+*.html 
+*.xhtml 
+*.xht 
 
 # java
-.java 
-.jav 
+*.java 
+*.jav 
 
 # javascript
-.js 
-.jsx 
-.javascript 
-.es 
-.mjs 
-.cjs 
+*.js 
+*.jsx 
+*.javascript 
+*.es 
+*.mjs 
+*.cjs 
 
 # julia
-.jl 
+*.jl 
 
 # less
-.less 
+*.less 
 
 # lua
-.lua 
+*.lua 
 
 # markdown
-.md 
-.markdown 
-.mdown 
-.mkd 
-.mkdn 
-.mkwn 
+*.md 
+*.markdown 
+*.mdown 
+*.mkd 
+*.mkdn 
+*.mkwn 
 
 # nix
-.nix 
+*.nix 
 
 # nodejs
 *.node_modules 
 *.npm 
-.npmrc 
+*.npmrc 
 
 # perl
-.pl 
-.pm 
-.pl6 
-.p6 
-.pm6 
-.raku 
-.rakumod 
+*.pl 
+*.pm 
+*.pl6 
+*.p6 
+*.pm6 
+*.raku 
+*.rakumod 
 
 # php
-.php 
+*.php 
 
 # Powerpoint
-.ppt 
-.pptx 
+*.ppt 
+*.pptx 
 
 # powershell
-.ps1 
+*.ps1 
 
 # prolog
 # .pl  # Conflict to a perl's one.
-.pro 
-.swi 
+*.pro 
+*.swi 
 
 # python
-.py 
-.pyw 
-.pythonstartup 
-.pythonrc 
+*.py 
+*.pyw 
+*.pythonstartup 
+*.pythonrc 
 *Pipfile 
 
 # R
-.R ﳒ
+*.R ﳒ
 
 # ruby
-.rb 
-.rbw 
-.gemspec 
-.rbs 
-.ebs 
-.ru 
+*.rb 
+*.rbw 
+*.gemspec 
+*.rbs 
+*.ebs 
+*.ru 
 *Gemfile 
 *Rakefile 
-.rake 
+*.rake 
 *.bundle 
 
 # rust
-.rs 
+*.rs 
 *.cargo 
 *.rustup 
 
 # sass
-.scss 
-.sass 
+*.scss 
+*.sass 
 
 # scala
-.scala 
+*.scala 
 
 # stylus
-.styl 
-.stylus 
+*.styl 
+*.stylus 
 
 # swift
-.swift 
+*.swift 
 
 # typescript
-.ts 
-.tsx 
+*.ts 
+*.tsx 
 
 # shell
-.sh 
-.profile 
+*.sh 
 *profile 
-.bash 
-.bashrc 
-.bash_profile 
-.bash_logout 
-.zsh 
-.zshenv 
+*.bash 
+*bashrc 
+*bash_profile 
+*bash_logout 
+*.zsh 
 *zshenv 
-.zprofile 
 *zprofile 
-.zshrc 
 *zshrc 
-.zlogin 
 *zlogin 
-.zlogout 
 *zlogout 
-.csh 
-.cshrc 
+*.csh 
 *cshrc 
-.tcsh 
-.tcshrc 
+*.tcsh 
 *tcshrc 
-.ksh 
+*.ksh 
 
 # ctags
-.ctags 
+*.ctags 
 *tags 
 
 # vim
-.vim 
-*.vimrc 
+*.vim 
 *vimrc 
-*.gvimrc 
 *gvimrc 
 *.viminfo 
 
 # vue
-.vue ﵂
+*.vue ﵂
 
 # Word
-.doc 
-.docx 
+*.doc 
+*.docx 
 
 # X11
-.xinitrc 
 *xinitrc 
-.xserverrc 
 *xserverrc 
-.Xdefaults 
-.Xresources 
+*.Xdefaults 
+*.Xresources 
 
 # archives or compressed
-.tar 
-.tgz 
-.arc 
-.arj 
-.taz 
-.lha 
-.lz4 
-.lzh 
-.lzma 
-.tlz 
-.txz 
-.tzo 
-.t7z 
-.zip 
-.z 
-.dz 
-.gz 
-.lrz 
-.lz 
-.lzo 
-.xz 
-.zst 
-.tzst 
-.bz2 
-.bz 
-.tbz 
-.tbz2 
-.tz 
-.deb 
-.rpm 
-.jar 
-.war 
-.ear 
-.sar 
-.rar 
-.alz 
-.ace 
-.zoo 
-.cpio 
-.7z 
-.rz 
-.cab 
-.wim 
-.swm 
-.dwm 
-.esd 
-.zstd 
+*.tar 
+*.tgz 
+*.arc 
+*.arj 
+*.taz 
+*.lha 
+*.lz4 
+*.lzh 
+*.lzma 
+*.tlz 
+*.txz 
+*.tzo 
+*.t7z 
+*.zip 
+*.z 
+*.dz 
+*.gz 
+*.lrz 
+*.lz 
+*.lzo 
+*.xz 
+*.zst 
+*.tzst 
+*.bz2 
+*.bz 
+*.tbz 
+*.tbz2 
+*.tz 
+*.deb 
+*.rpm 
+*.jar 
+*.war 
+*.ear 
+*.sar 
+*.rar 
+*.alz 
+*.ace 
+*.zoo 
+*.cpio 
+*.7z 
+*.rz 
+*.cab 
+*.wim 
+*.swm 
+*.dwm 
+*.esd 
+*.zstd 
 
 # image formats
-.jpg 
-.jpeg 
-.mjpg 
-.mjpeg 
-.gif 
-.bmp 
-.pbm 
-.pgm 
-.ppm 
-.tga 
-.xbm 
-.xpm 
-.tif 
-.tiff 
-.png 
-.svg 
-.svgz 
-.mng 
-.pcx 
-.mov 
-.mpg 
-.mpeg 
-.m2v 
-.mkv 
-.webm 
-.webp 
-.ogm 
-.mp4 
-.m4v 
-.mp4v 
-.vob 
-.qt 
-.nuv 
-.wmv 
-.asf 
-.rm 
-.rmvb 
-.flc 
-.avi 
-.fli 
-.flv 
-.gl 
-.dl 
-.xcf 
-.xwd 
-.yuv 
-.cgm 
-.emf 
-.ogv 
-.ogx 
+*.jpg 
+*.jpeg 
+*.mjpg 
+*.mjpeg 
+*.gif 
+*.bmp 
+*.pbm 
+*.pgm 
+*.ppm 
+*.tga 
+*.xbm 
+*.xpm 
+*.tif 
+*.tiff 
+*.png 
+*.svg 
+*.svgz 
+*.mng 
+*.pcx 
+*.mov 
+*.mpg 
+*.mpeg 
+*.m2v 
+*.mkv 
+*.webm 
+*.webp 
+*.ogm 
+*.mp4 
+*.m4v 
+*.mp4v 
+*.vob 
+*.qt 
+*.nuv 
+*.wmv 
+*.asf 
+*.rm 
+*.rmvb 
+*.flc 
+*.avi 
+*.fli 
+*.flv 
+*.gl 
+*.dl 
+*.xcf 
+*.xwd 
+*.yuv 
+*.cgm 
+*.emf 
+*.ogv 
+*.ogx 
 
 # audio formats
-.aac 
-.au 
-.flac 
-.m4a 
-.mid 
-.midi 
-.mka 
-.mp3 
-.mpc 
-.ogg 
-.ra 
-.wav 
-.oga 
-.opus 
-.spx 
-.xspf 
+*.aac 
+*.au 
+*.flac 
+*.m4a 
+*.mid 
+*.midi 
+*.mka 
+*.mp3 
+*.mpc 
+*.ogg 
+*.ra 
+*.wav 
+*.oga 
+*.opus 
+*.spx 
+*.xspf 
 
 # misc
-.exe 
-.txt 
-.csv 
-.tsv 
-.rst 
-.lock 
-.pdf 
-.log 
-.key 
+*.exe 
+*.txt 
+*.csv 
+*.tsv 
+*.rst 
+*.lock 
+*.pdf 
+*.log 
+*.key 
 *.gnupg 
 *.password-store 
-.pki 
+*.pki 
 *LICENSE 
 *COPYRIGHT 
 *COPYING 
 *README 
 *CHANGES 
-.editorconfig 
-.tigrc 
+*.editorconfig 
 *tigrc 
-.shellcheckrc 
 *shellcheckrc 
-.ripgreprc 
-.inputrc 
-.aliases 
-.pacnew 
-.diff 
-.patch 
+*.ripgreprc 
+*.inputrc 
+*.aliases 
+*.pacnew 
+*.diff 
+*.patch 
 *.DS_Store 
-.goldplate ﬥ
+*.goldplate ﬥ
 *.github 
 *.vscode 
 *.mozilla 
 *.terminfo 
 *.urxvt 
-.zwc 
-.zcompdump 
+*.zwc 
+*.zcompdump 
 *.gitignore-boilerplates 
 *Desktop 
 *Documents 
@@ -490,18 +475,10 @@ ORPHAN 
 *Public 
 *Templates 
 *Videos 
-.diricons 
-.DIRICONS 
-.dir_icons 
-.DIR_iconS 
 *diricons 
 *DIRICONS 
 *dir_icons 
 *DIR_ICONS 
-.lsicons 
-.LSICONS 
-.ls_icons 
-.LS_ICONS 
 *lsicons 
 *LSICONS 
 *ls_icons 
