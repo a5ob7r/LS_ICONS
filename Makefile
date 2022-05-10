@@ -8,16 +8,16 @@ all: sh csh
 
 .PHONY: sh
 sh:
-	dircolors $(SRC) | sed 's/^LS_COLORS/LS_ICONS/' | sed 's/LS_COLORS$$/LS_ICONS/' > $(DST_SH)
+	dircolors -b $(SRC) | sed -e 's/^LS_COLORS/LS_ICONS/' -e 's/LS_COLORS$$/LS_ICONS/' | tee $(DST_SH)
 
 .PHONY: csh
 csh:
-	dircolors -c $(SRC) | sed 's/^setenv LS_COLORS/setenv LS_ICONS/' > $(DST_CSH)
+	dircolors -c $(SRC) | sed 's/^setenv LS_COLORS/setenv LS_ICONS/' | tee $(DST_CSH)
 
 .PHONY: test
 test:
-	git diff $(DSTS)
+	git diff --exit-code $(DSTS)
 
 .PHONY: lint
 lint:
-	! grep '^\.' $(SRC)
+	{ grep -n '^\.' $(SRC) | tee /dev/fd/3 | while read -r REPLY; do exit 1; done; } 3>&1
