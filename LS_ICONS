@@ -321,6 +321,7 @@ ORPHAN 
 *xinitrc 
 .xserverrc 
 *xserverrc 
+.Xdefaults 
 .Xresources 
 
 # archives or compressed
