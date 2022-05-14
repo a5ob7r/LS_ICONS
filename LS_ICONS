@@ -141,6 +141,8 @@ ORPHAN 
 
 # go
 *.go 
+*go.mod 
+*go.sum 
 
 # haskell
 *.hs 
