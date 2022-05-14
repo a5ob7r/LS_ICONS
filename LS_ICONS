@@ -287,6 +287,8 @@ ORPHAN 
 *.tcsh 
 *tcshrc 
 *.ksh 
+*kshrc 
+*suid_profile 
 
 # ctags
 *.ctags 
