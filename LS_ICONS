@@ -291,6 +291,8 @@ ORPHAN 
 *.ksh 
 *kshrc 
 *suid_profile 
+*.shinit 
+*.shrc 
 
 # ctags
 *.ctags 
