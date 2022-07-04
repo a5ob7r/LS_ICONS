@@ -149,6 +149,8 @@ ORPHAN 
 *.lhs 
 *.cabal 
 *cabal.project 
+*cabal.project.local 
+*cabal.project.freeze 
 *.ghc 
 *.ghcup 
 *.cabal 
