@@ -213,6 +213,9 @@ ORPHAN 
 *.raku 
 *.rakumod 
 
+*latexmkrc 
+*LatexMk 
+
 # php
 *.php 
 
