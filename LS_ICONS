@@ -18,15 +18,15 @@ TERM *
 FILE 
 DIR 
 LINK 
-FIFO ﳣ
-SOCK 
-DOOR ﴘ
-BLK ﰩ
+FIFO 󰟥
+SOCK 󰆨
+DOOR 󰠚
+BLK 
 CHR 
 ORPHAN 
 ###############################################################################
 # brew
-*Brewfile 
+*Brewfile 󰂘
 
 # build
 *Makefile 
@@ -52,8 +52,8 @@ ORPHAN 
 *.h 
 
 # cpp
-*.cpp ﭱ
-*.hpp ﭱ
+*.cpp 󰙲
+*.hpp 󰙲
 
 # clojure
 *.clj 
@@ -69,17 +69,17 @@ ORPHAN 
 *.conf 
 *.cfg 
 *config 
-*.json ﬥ
+*.json 󰘦
 *.yml 
 *.yaml 
 *.toml 
 *.ini 
-*.xml 謹
+*.xml 󰗀
 *.dirs 
 *.locale 
 
 # c sharp
-*.cs 
+*.cs 󰌛
 
 # coffeescript
 *.coffee 
@@ -150,7 +150,7 @@ ORPHAN 
 *.cabal 
 *cabal.project 
 *cabal.project.local 
-*cabal.project.freeze 
+*cabal.project.freeze 󰌾
 *.ghc 
 *.ghcup 
 *.cabal 
@@ -158,9 +158,9 @@ ORPHAN 
 *dist-newstyle 
 
 # history
-*history 
-*.lesshst 
-*.netrwhist 
+*history 
+*.lesshst 
+*.netrwhist 
 
 # html
 *.html 
@@ -239,7 +239,7 @@ ORPHAN 
 *Pipfile 
 
 # R
-*.R ﳒ
+*.R 󰟔
 
 # ruby
 *.rb 
@@ -310,7 +310,7 @@ ORPHAN 
 *.viminfo 
 
 # vue
-*.vue ﵂
+*.vue 󰡄
 
 # Word
 *.doc 
@@ -447,18 +447,18 @@ ORPHAN 
 *.csv 
 *.tsv 
 *.rst 
-*.lock 
+*.lock 󰌾
 *.pdf 
-*.log 
-*.key 
-*.gnupg 
-*.password-store 
-*.pki 
+*.log 
+*.key 󰌋
+*.gnupg 󰌋
+*.password-store 󰌋
+*.pki 󰌋
 *LICENSE 
 *COPYRIGHT 
 *COPYING 
 *README 
-*CHANGES 
+*CHANGES 
 *.editorconfig 
 *tigrc 
 *shellcheckrc 
@@ -469,7 +469,7 @@ ORPHAN 
 *.diff 
 *.patch 
 *.DS_Store 
-*.goldplate ﬥ
+*.goldplate 󰘦
 *.github 
 *.vscode 
 *.mozilla 
@@ -478,14 +478,14 @@ ORPHAN 
 *.zwc 
 *.zcompdump 
 *.gitignore-boilerplates 
-*Desktop 
-*Documents 
-*Downloads 
-*Music 
-*Pictures 
-*Public 
-*Templates 
-*Videos 
+*Desktop 
+*Documents 
+*Downloads 
+*Music 
+*Pictures 
+*Public 
+*Templates 
+*Videos 
 *diricons 
 *DIRICONS 
 *dir_icons 
