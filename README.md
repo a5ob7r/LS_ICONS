@@ -10,6 +10,10 @@ This is similar to `LS_COLORS`, which is a configuration for colorization filena
 
 This is not supported by GNU ls and probably other similar projects. Also this project uses `dircolors`, but it is probably an unexpected usage of `dircolors`.
 
+## Requirements
+
+- [Nerd Fonts](https://www.nerdfonts.com/) v3.0.0 or later
+
 ## Usage
 
 For sh, bash, zsh and so on,
